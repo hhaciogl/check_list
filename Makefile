@@ -1,6 +1,6 @@
 SOURCE=$(wildcard *.c)
 
-run: $(SOURCE)
+run: $(SOURCE) ./test/libft.a
 	gcc $^ -o $@ -L./test -lft
 	./run
 

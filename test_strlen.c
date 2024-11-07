@@ -7,7 +7,7 @@ void	test_strlen_with_arg_hello()
 	char *	arg = "hello";
 	size_t	result = ft_strlen("hello");
 
-	test(expected == result, __func__);
+	TEST(expected == result, __func__);
 }
 
 
