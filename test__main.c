@@ -7,5 +7,9 @@ int main()
 	test_isalpha();
 	test_isascii();
 	test_isprint();
+	test_memset();
+	test_bzero();
+	test_memcpy();
+	test_memmove();
 	return (0);
 }

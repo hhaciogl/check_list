@@ -3,6 +3,7 @@
 # define TEST_H
 #include <stdio.h>
 #include <stddef.h>
+#include <string.h>
 
 #define GREEN "\033[0;32m"
 #define RED "\033[0;31m"
@@ -23,11 +24,14 @@
 #define log_uint(var) printf(#var " = %u\n", var)
 
 
-void	test(int condition, const char *msg);
-void	test_strlen(void);
-void	test_isdigit(void);
+void	test_strlen();
+void	test_isdigit();
 void	test_isalpha();
 void	test_isascii();
 void	test_isprint();
+void	test_memset();
+void	test_bzero();
+void	test_memcpy();
+void	test_memmove();
 
 #endif
