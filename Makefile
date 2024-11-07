@@ -1,7 +1,7 @@
 SOURCE=$(wildcard *.c)
 
 run: $(SOURCE) ./test/libft.a
-	gcc $^ -o $@ -L./test -lft
+	gcc $^ -o $@ -L./test -lft -Werror -Wextra -Wall
 	./run
 
 copy:

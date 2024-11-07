@@ -26,5 +26,6 @@
 void	test(int condition, const char *msg);
 void	test_strlen(void);
 void	test_isdigit(void);
+void	test_isalpha();
 
 #endif
