@@ -24,4 +24,4 @@ push:
 	set -e
 	git add .
 	git commit -m "$(M)"
-	git push origin
+	git push origin master
