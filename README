@@ -1,0 +1,5 @@
+HOW TO RUN
+
+1. LIB="foldername" make copy
+2. Use make build or make bonus to create library
+3. run program
