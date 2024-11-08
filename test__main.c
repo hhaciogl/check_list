@@ -14,7 +14,7 @@ int main()
 	test_strlcpy();
 	test_strlcat();
 	test_toupper();
-
+	test_tolower();
 
 	return (0);
 }

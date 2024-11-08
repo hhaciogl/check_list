@@ -36,5 +36,6 @@ void	test_memmove();
 void    test_strlcpy();
 void    test_strlcat();
 void    test_toupper();
+void    test_tolower();
 
 #endif
