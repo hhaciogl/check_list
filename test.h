@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define GREEN "\033[0;32m"
 #define RED "\033[0;31m"
@@ -43,5 +44,6 @@ void    test_strncmp();
 void    test_memchr();
 void    test_memcmp();
 void    test_strnstr();
-
+void    test_atoi();
+void    test_calloc();
 #endif

@@ -21,6 +21,7 @@ int main()
 	test_memchr();
 	test_memcmp();
 	test_strnstr();
-
+	test_atoi();
+	test_calloc();
 	return (0);
 }
