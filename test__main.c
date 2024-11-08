@@ -17,6 +17,7 @@ int main()
 	test_tolower();
 	test_strchr();
 	test_strrchr();
+	test_strncmp();
 
 	return (0);
 }
