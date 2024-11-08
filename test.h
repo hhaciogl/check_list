@@ -37,5 +37,6 @@ void    test_strlcpy();
 void    test_strlcat();
 void    test_toupper();
 void    test_tolower();
+void    test_strchr();
 
 #endif
