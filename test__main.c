@@ -23,5 +23,7 @@ int main()
 	test_strnstr();
 	test_atoi();
 	test_calloc();
+	test_strdup();
+
 	return (0);
 }

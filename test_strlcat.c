@@ -13,10 +13,7 @@ void test_strlcat_with_arg_hello__world_9()
 	int condition_return = expected_return == result;
 	int condition_arg1 = strcmp(expected_arg_1, arg_1) == 0; 
 
-	printf("Destination: ");
-	TEST(condition_arg1, __func__);
-	printf("Return: ");
-	TEST(condition_return, __func__);
+	TEST(condition_arg1 && condition_return, __func__);
 }
 
 

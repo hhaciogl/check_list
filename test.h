@@ -46,4 +46,5 @@ void    test_memcmp();
 void    test_strnstr();
 void    test_atoi();
 void    test_calloc();
+void    test_strdup();
 #endif

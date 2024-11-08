@@ -11,9 +11,6 @@ void test_calloc_with_arg_2_3()
 	if(!result)
 		TEST(0, "Malloc failled");
 	int condition = memcmp(expected, result, 6) == 0;
-
-
-
 	TEST(condition, __func__);
 	free(result);
 }
