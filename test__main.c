@@ -25,6 +25,7 @@ int main()
 	test_calloc();
 	test_strdup();
 	test_ft_substr();
-
+	test_ft_strjoin();
+	test_ft_strtrim();
 	return (0);
 }
