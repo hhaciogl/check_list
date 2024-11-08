@@ -24,6 +24,7 @@ int main()
 	test_atoi();
 	test_calloc();
 	test_strdup();
+	test_ft_substr();
 
 	return (0);
 }

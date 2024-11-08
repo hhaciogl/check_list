@@ -47,4 +47,5 @@ void    test_strnstr();
 void    test_atoi();
 void    test_calloc();
 void    test_strdup();
+void    test_ft_substr();
 #endif
