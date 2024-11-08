@@ -11,5 +11,8 @@ int main()
 	test_bzero();
 	test_memcpy();
 	test_memmove();
+	test_strlcpy();
+	
+
 	return (0);
 }
