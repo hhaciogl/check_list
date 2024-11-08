@@ -16,6 +16,7 @@ int main()
 	test_toupper();
 	test_tolower();
 	test_strchr();
-	
+	test_strrchr();
+
 	return (0);
 }
