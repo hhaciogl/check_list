@@ -35,5 +35,6 @@ void	test_memcpy();
 void	test_memmove();
 void    test_strlcpy();
 void    test_strlcat();
+void    test_toupper();
 
 #endif

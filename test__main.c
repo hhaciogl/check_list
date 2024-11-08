@@ -13,6 +13,7 @@ int main()
 	test_memmove();
 	test_strlcpy();
 	test_strlcat();
+	test_toupper();
 
 
 	return (0);
