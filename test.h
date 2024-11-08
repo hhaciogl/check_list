@@ -6,6 +6,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <fcntl.h>
+#include <unistd.h>
 #define GREEN "\033[0;32m"
 #define RED "\033[0;31m"
 #define RESET "\033[0m"
@@ -53,5 +55,10 @@ void    test_ft_strtrim();
 void    test_ft_split();
 void    test_ft_itoa();
 void    test_ft_strmapi();
+void    test_ft_striteri();
+void    test_ft_putchar_fd();
+void    test_ft_putstr_fd();
+void    test_ft_putendl_fd();
+void    test_ft_putnbr_fd();
 
 #endif

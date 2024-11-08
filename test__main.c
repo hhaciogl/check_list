@@ -30,5 +30,11 @@ int main()
 	test_ft_split();
 	test_ft_itoa();
 	test_ft_strmapi();
+	test_ft_striteri();
+	test_ft_putchar_fd();
+	test_ft_putstr_fd();
+	test_ft_putendl_fd();
+	test_ft_putnbr_fd();
+
 	return (0);
 }
