@@ -20,6 +20,7 @@ int main()
 	test_strncmp();
 	test_memchr();
 	test_memcmp();
+	test_strnstr();
 
 	return (0);
 }
