@@ -34,5 +34,6 @@ void	test_bzero();
 void	test_memcpy();
 void	test_memmove();
 void    test_strlcpy();
+void    test_strlcat();
 
 #endif

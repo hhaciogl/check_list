@@ -12,7 +12,8 @@ int main()
 	test_memcpy();
 	test_memmove();
 	test_strlcpy();
-	
+	test_strlcat();
+
 
 	return (0);
 }
