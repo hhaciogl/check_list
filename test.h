@@ -41,6 +41,6 @@ void    test_strchr();
 void    test_strrchr();
 void    test_strncmp();
 void    test_memchr();
-
+void    test_memcmp();
 
 #endif
